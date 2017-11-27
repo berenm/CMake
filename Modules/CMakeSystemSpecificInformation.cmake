@@ -37,6 +37,8 @@ if(NOT _INCLUDED_SYSTEM_INFO_FILE)
    endif()
 endif()
 
+# Initialize ``CMAKE_BUILD_TYPE`` or ``CMAKE_CONFIGURATION_TYPES``
+include(CMakeInitializeConfigs)
 
 # optionally include a file which can do extra-generator specific things, e.g.
 # CMakeFindEclipseCDT4.cmake asks gcc for the system include dirs for the Eclipse CDT4 generator

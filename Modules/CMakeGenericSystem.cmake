@@ -1,7 +1,6 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-
 set(CMAKE_SHARED_LIBRARY_C_FLAGS "")            # -pic
 set(CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS "-shared")       # -shared
 set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")         # +s, flag for exe link to use shared lib
